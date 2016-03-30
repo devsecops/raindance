@@ -8,7 +8,7 @@ Using github and developing a common components model, we think we can solve for
 
 ## Approach
 
-Raindance builds upon the concept that software projects should contain security information and a common understanding of attack surface.  In a software project that employs this methodology, you would find a SECURITY.md and ATTACKS.md file within the root of the project.  Focusing on the ATTACKS.md file, we believe it is necessary to include a thumbnail sketch along with attacks that have been considered during the design, implementation and operations of the software project.  Further the Raindance Standard is meant to provide a library for commonly implemented patterns and the potential pitfalls that should be considered in order to reduce the effort and time required to identify an attack model.
+This Attack Model approach builds upon the concept that software projects should contain security information and a common understanding of attack surface.  In a software project that employs this methodology, you would find a SECURITY.md and ATTACKS.md file within the root of the project.  Focusing on the ATTACKS.md file, we believe it is necessary to include a thumbnail sketch along with attacks that have been considered during the design, implementation and operations of the software project.  Further, this Standard is meant to provide a library for commonly implemented patterns and the potential pitfalls that should be considered in order to reduce the effort and time required to identify an attack model.
 
 Systems and services are commonly available from an external, internal, or privileged vantage point.  We have chosen this as the top level entry point to our methodology because it simplifies the initial classification of attack surface.
 
