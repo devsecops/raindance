@@ -14,7 +14,7 @@ Systems and services are commonly available from an external, internal, or privi
 
 ## Getting Started
 
-### 1. Choose the type of asset you intend to model
+### 1. Choose an attack path
 
 Determine if your system will be made available externally, internally, or as a privileged system.  Choose the path that closely aligns with your choice of path to begin your attack model.
 
@@ -22,5 +22,8 @@ If you have multiple classifications, always choose the higher class.  For examp
 
 ### 2. Pick a template from the templates library
 
-Right now we have focused on supplying only one template to support basic attack models.
+Right now we have focused on supplying only one template to support basic attack models.  You can find it in the [templates](templates) directory.
 
+### 3. Set up ATTACKS.md in the root of your project
+
+Describe your project using the template you've chosen and save it as ATTACKS.md in the root of your project.  This file will continue to evolve with your project and when you gain security insights from the instrumentation constructed to support the security feedback loop.
