@@ -7,7 +7,7 @@ An externally available basic website is generally constructed from a core set o
 A typical basic website use case consists of a marketing or blog site with limited to no dependencies.  In this configuration, we are not evaluating the potential for 3rd party integration.
 
 ## Diagram
-![E001-001](/_images/E001-001.png)
+![E001-001](_images/E001-001.png)
 
 ## Summary Attack Analysis
 
