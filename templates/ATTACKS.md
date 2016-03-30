@@ -8,6 +8,7 @@ This project is in the {Crawl | Walk | Run} phase and has investment through the
 ## Scope / Dependencies
 
 ## Diagram
+{Insert photo/graphical representation of the workload and attack surface}
 
 ## Summary Attack Analysis
 
