@@ -15,7 +15,7 @@ Common External Attacks (Top Level)
 Common Mitigations (Top Level)
 
 |#|Mitigation|References|
-|-|----------|----------|
+|---|----------|----------|
 |M0001|Guard Force||
 |M0002|Badges||
 |M0003|Encryption||
