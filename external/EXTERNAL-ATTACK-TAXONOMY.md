@@ -4,7 +4,7 @@ This document contains top-level taxonomy for targets, attacks and mitigations t
 
 It is a work in progress and will continue to evolve as we grow this framework.  Our intention is to make use of other methods and information available to help make this system work for quick attack modeling.
 
-### Common External Targets (Top Level)
+### Common External Targets
 
 | # | Target| References |Notes|
 |---|-------|------------|-----|
@@ -17,17 +17,17 @@ It is a work in progress and will continue to evolve as we grow this framework. 
 |T7|Customers|||
 |T8|Data|||
 
-### Common External Attacks (Top Level)
+### Common External Attacks 
 
 | # |Attack|Common Targets|Potential Mitigations|References|
 |---|------|--------------|---------------------|----------|
 |A1|Unauthorized Physical Access|Physical Locations(T1)|Guards(M1), Badges(M2), ||
 |A2|Theft|Physical Assets(T1)|Encryption(M3)||
-|A3|Reconnaissance|P|||
+|A3|Reconnaissance||||
 |A4|||||
 |A5|||||
 
-### Common Mitigations (Top Level)
+### Common Mitigations 
 
 |#|Mitigation|References|Notes|
 |---|----------|----------|----|
