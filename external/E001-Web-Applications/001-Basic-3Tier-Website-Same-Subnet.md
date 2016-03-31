@@ -13,12 +13,12 @@ A typical basic website use case consists of a marketing or blog site with limit
 
 |#|Attack|Issue/Gap|Reference|Test Reference|Status|
 |----|----|----|----|----|----|
-|1|{Some Attack Type}|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
+|1|Reconnaissance(A3)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
 
 
 ## Detailed Attack Analysis
 
-### Attack #1: {Name of Attack}
-{Enter a Reference + Link / Description of the attack} 
+### Attack #1: Reconnaissance
+Attackers gain a great deal of insight through reconnaissance activities.
 
 **Notes:**
