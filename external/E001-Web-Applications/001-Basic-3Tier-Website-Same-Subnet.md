@@ -13,7 +13,7 @@ A typical basic website use case consists of a marketing or blog site with limit
 
 |#|Attack|Issue/Gap|Reference|Test Reference|Status|
 |----|----|----|----|----|----|
-|1|Reconnaissance(A3)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
+|1|Reconnaissance (A3)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
 
 
 ## Detailed Attack Analysis
