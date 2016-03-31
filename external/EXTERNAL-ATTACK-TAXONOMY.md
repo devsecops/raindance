@@ -24,7 +24,7 @@ It is a work in progress and will continue to evolve as we grow this framework. 
 |A1|Unauthorized Physical Access|Physical Locations(T1)|Guards(M1), Badges(M2), ||
 |A2|Theft|Physical Assets(T1)|Encryption(M3)||
 |A3|Reconnaissance||||
-|A4|||||
+|A4|Social Engineering||||
 |A5|||||
 
 ### Common Mitigations 
