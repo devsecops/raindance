@@ -12,7 +12,7 @@ This Attack Map approach builds upon the concept that software projects should c
 
 Systems and services are commonly available from an external, internal, or privileged vantage point.  We have chosen these levels as top level entry points within our methodology because it simplifies the initial classification of attack surface.  Here is a reference diagram to help with understanding how Attack Maps work:
 
-->![Top-Level Attack Map](attack-maps.png)<-
+![Top-Level Attack Map](attack-maps.png)
 
 ## Getting Started
 
