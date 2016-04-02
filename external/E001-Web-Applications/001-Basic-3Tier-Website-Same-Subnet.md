@@ -1,4 +1,4 @@
-# Attack Model: Basic 3-Tier Website / Same Subnet
+# Attack Map: Basic 3-Tier Website / Same Subnet
 
 ## Description
 An externally available basic website is generally constructed from a core set of components and in many cases is supported by a 2 or 3 tier architecture.  Commonly, a basic website contains a web server, app server and database. In this configuration, the website is configured to share the same subnet with external access through the web server.
