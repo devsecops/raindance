@@ -1,4 +1,4 @@
-# Attack Model: {Name of Project}
+# Attack Map: {Name of Project}
 
 ## Description
 
