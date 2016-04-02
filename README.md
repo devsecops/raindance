@@ -18,13 +18,13 @@ Systems and services are commonly available from an external, internal, or privi
 
 ### 1. Choose an attack path
 
-Determine if your system will be made available externally, internally, or as a privileged system.  Choose the path that closely aligns with your choice of path to begin your attack model.
+Determine if your system will be made available externally, internally, or as a privileged system.  Choose the path that closely aligns with your choice of path to begin your attack map.
 
-If you have multiple classifications, always choose the higher class.  For example, if you have a website that will be used both externally and internally, you will choose the external path to start your model.  Complex attack models will be supported in a later variation of this project.
+If you have multiple classifications, always choose the higher class.  For example, if you have a website that will be used both externally and internally, you will choose the external path to start your map.  Complex attack maps will be supported in a later variation of this project.
 
 ### 2. Pick a template from the templates library
 
-Right now we have focused on supplying only one template to support basic attack models.  You can find it in the [templates](templates) directory.
+Right now we have focused on supplying only one template to support basic attack maps.  You can find it in the [templates](templates) directory.
 
 ### 3. Set up ATTACKS.md in the root of your project
 
