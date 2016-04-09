@@ -32,4 +32,4 @@ Describe your project using the template you've chosen and save it as ATTACKS.md
 
 ### 4. Link Attack Definitions to ATTACKS.md
 
-Create an /attacks folder in your Test library to have your .attacks run during your build process and/or for run time scans to be kicked off routinely.  Link the .attacks to test controls and mitigations routinely.
+Create an /attacks folder in your Test library to have your .attack files run during your build process and/or for run time scans to be kicked off routinely.  Link the .attack to test controls and mitigations routinely.
