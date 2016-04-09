@@ -29,3 +29,7 @@ Right now we have focused on supplying only one template to support basic attack
 ### 3. Set up ATTACKS.md in the root of your project
 
 Describe your project using the template you've chosen and save it as ATTACKS.md in the root of your project.  This file will continue to evolve with your project and when you gain security insights from the instrumentation constructed to support the security feedback loop.
+
+### 4. Link Attack Definitions to ATTACKS.md
+
+Create an /attacks folder in your Test library to have your .attacks run during your build process and/or for run time scans to be kicked off routinely.  Link the .attacks to test controls and mitigations routinely.
