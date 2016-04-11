@@ -26,7 +26,9 @@ Attack Maps are a work in progress and so its this taxonomy.  We will continue t
 |A2|Theft|Physical Assets(E1)|Encryption(M3)||
 |A3|Reconnaissance||||
 |A4|Social Engineering||||
-|A5|||||
+|A5|Denial of Service||||
+|A6|||||
+
 
 ### Common Mitigations 
 
