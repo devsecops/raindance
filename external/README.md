@@ -12,11 +12,12 @@ Attack Maps are a work in progress and so its this taxonomy.  We will continue t
 |E1|Physical||Locations, Assets, etc.|
 |E2|Employees||Full-time Employees, Contractors, Partners, etc.|
 |E3|Networks||DMZ, Open Wifi, Public, etc.|
-|E4|Partners||Business, Technology, Support, etc.|
+|E4|Systems||Servers, Proxies, etc.|
 |E5|Products||Hard Goods, Services, Software, etc.|
 |[E6](E6-Web-Applications/README.md)|Web Applications||Marketing, Portal, Blog, etc.|
-|E7|Customers||B2C, B2B, etc.|
-|E8|Data||Public, Web, Shared, etc.|
+|E7|Partners||Business, Technology, Support, etc.|
+|E8|Customers||B2C, B2B, etc.|
+|E9|Data||Public, Web, Shared, etc.|
 
 ### Common External Attacks 
 
