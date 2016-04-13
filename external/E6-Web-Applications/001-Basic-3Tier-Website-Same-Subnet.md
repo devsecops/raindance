@@ -8,7 +8,7 @@ A typical basic website use case consists of a marketing or blog site with limit
 
 ## Diagram  
 ![E6-001](_images/E6-001.png)        
-![E6-001](../../_images/png-badge.png)
+![E6-001](../../_images/png-badge.png)![E6-001](../../_images/graffle-badge.png)
 
 ## Summary Attack Analysis
 
