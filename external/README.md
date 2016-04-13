@@ -25,9 +25,9 @@ Attack Maps are a work in progress and so its this taxonomy.  We will continue t
 |---|------|--------------|---------------------|----------|
 |A1|Unauthorized Physical Access|Physical Locations(E1)|Guards(M1), Badges(M2), ||
 |A2|Theft|Physical Assets(E1)|Encryption(M3)||
-|A3|Reconnaissance||||
-|A4|Social Engineering||||
-|A5|Denial of Service||||
+|A3|Reconnaissance|All|||
+|A4|Social Engineering|Employees(E2), Partners(E7), Customers(E8)|||
+|A5|Denial of Service|Networks(E3), Systems(E4), Web Applications(E6)|||
 |A6|||||
 
 
