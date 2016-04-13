@@ -14,14 +14,20 @@ A typical basic website use case consists of a marketing or blog site with limit
 
 |#|Attack|Issue/Gap|Reference|Test Reference|Status|
 |----|----|----|----|----|----|
-|1|Reconnaissance (A3)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
-|2|Denial of Service (A5)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
-|3|Social Engineering (A4)|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
+|1|Reconnaissance (A3)|Attacker gains information to understand potential weaknesses.|{link to github issue}|{test link}|{workflow status}|
+|2|Denial of Service (A5)|Attacker renders website unavailable.|{link to github issue}|{test link}|{workflow status}|
+|3|Social Engineering (A4)|Attacker gains customer credentials via social engineering.|{link to github issue}|{test link}|{workflow status}|
 
 
 ## Detailed Attack Analysis
 
 ### Attack #1: Reconnaissance
 Attackers gain a great deal of insight through reconnaissance activities.
+
+### Attack #2: Denial of Service
+Attackers can render websites and web applications unavailable by flooding them with different typs of traffic.
+
+### Attack #3: Social Engineering
+Attackers can gain access to authenticated websites and web application by social engineering to obtain credentials directly from unsuspecting customers.
 
 **Notes:**
