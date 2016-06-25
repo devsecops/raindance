@@ -31,7 +31,14 @@ Attack surface is the entry point for Raindance.  This section describes the top
 	
 	Privileged assets are intentionally well-protected and are certainly not intended for public consumption.  These assets are "handled" by trusted individuals with specified privileges honored by security controls once identification is presented for authorized access to be confirmed.
 
+## Attack Steps
+Every asset has its own attack surface
 
+* #### [Reconnaissance]()
+
+	
+
+* #### [Testing]()
 
 
 
