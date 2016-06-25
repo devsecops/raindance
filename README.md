@@ -19,15 +19,15 @@ We will begin building out this project using human readable diagrams and dialog
 ## Attack Surface
 Attack surface is the entry point for Raindance.  This section describes the top-level for the project and gives you a starting point for your work.   
 
-* #### [External](external/README.md)
+* #### [External](patterns/external/README.md)
 
 	External assets are intentionally or unintentionally exposed for public use or consumption.  Assets that are intentionally exposed publicly are commonly prepared for public access but may not have a full understanding of how they might be abused.  Assets that are unintentionally exposed are commonly not prepared for public access and have attack surface which is more easily abused.
 
-* #### [Internal](internal/README.md)
+* #### [Internal](patterns/internal/README.md)
 
 	Internal assets are protected assets that are commonly described under an "ownership" model. Internal assets are not generally exposed to the public and usually include security controls to limit exposure.  Physical and logical boundaries, authentication, and authorization controls are commonly deployed to ensure that only trusted individuals can consume or use these assets.
 
-* #### [Privileged](privileged/README.md)
+* #### [Privileged](patterns/privileged/README.md)
 	
 	Privileged assets are intentionally well-protected and are certainly not intended for public consumption.  These assets are "handled" by trusted individuals with specified privileges honored by security controls once identification is presented for authorized access to be confirmed.
 
