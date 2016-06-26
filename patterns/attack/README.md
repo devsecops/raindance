@@ -1,4 +1,6 @@
 # Attacks
+![Attacks](../../_images/attack.png)
+
 This section provides a collection of attacks and kill-chain steps that aid in compromise of organizational assets.
 
 * #### [Reconnaissance]()

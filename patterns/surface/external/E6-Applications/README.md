@@ -1,5 +1,5 @@
-# Web Applications
-![External](../../../../_images/external.svg) ![External](../../../../_images/web-applications.svg)
+# Applications
+![Surface](../../../../_images/surface.png) ![External](../../../../_images/external.png) ![External](../../../../_images/applications.png)
 
 There are a variety of ways to support web applications and attack surface varies by configuration as well the mitigations used to support the configuration.
 

@@ -24,13 +24,13 @@ We've organized our work into a living catalog.  Security work generally starts 
 * ### [Surface](patterns/surface/README.md)
 Attack surface is the entry point for Raindance.  This section describes the top-level for the project and gives you a starting point for your work.   
 	
-* ### Assets
+* ### [Assets](patterns/asset/README.md)
 Assets are the component parts that make up organizations, products, services and other compilations that create value.  Assets are considered property that is owned by an organization or person.
 
 * ### [Attacks](patterns/attack/README.md)
 Attacks are steps in an abuse case or exploit or kill-chain that lead to compromise.
 
-* ### Mitigations
+* ### [Mitigations](patterns/mitigation/README.md)
 Every organization or person has the ability to reduce business risks developed during the value creation process.  Mitigating controls are commonly put in place to make an attack difficult.
 
 ##Getting Started

@@ -1,2 +1,2 @@
 # Partners
-![External](../../../../_images/external.svg) ![External](../../../../_images/partners.svg)
+![Surface](../../../../_images/surface.png) ![External](../../../../_images/external.png) ![Partners](../../../../_images/partners.png)

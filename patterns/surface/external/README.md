@@ -13,11 +13,11 @@ External maps begin with targets.  Targets are then enriched with attacks and mi
 
 | # | Target| References |Notes|
 |---|-------|------------|-----|
-|[E0](E1-Organization/README.md)|Organization|R0|Brand, Identity, Reputation, etc.|
+|[E0](E0-Organization/README.md)|Organization|R0|Brand, Identity, Reputation, etc.|
 |[E1](E1-Physical/README.md)|Physical|R1|Locations, Assets, etc.|
 |[E2](E2-Employees/README.md)|Employees|R2|Full-time Employees, Contractors, Partners, etc.|
 |[E3](E3-Networks/README.md)|Networks|R3|DMZ, Open Wifi, Public, etc.|
-|[E4](E4-Compute/README.md)|Systems|R4|Servers, Proxies, etc.|
+|[E4](E4-Compute/README.md)|Compute|R4|Servers, Proxies, etc.|
 |[E5](E5-Products/README.md)|Products|R5|Hard Goods, Services, Software, etc.|
 |[E6](E6-Applications/README.md)|Applications|R6|Marketing, Portal, Blog, etc.|
 |[E7](E7-Partners/README.md)|Partners|R7|Business, Technology, Support, etc.|
