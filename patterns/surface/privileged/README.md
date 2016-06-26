@@ -1,2 +1,2 @@
 #Privileged
-![Privileged](../../_images/privileged.svg)
+![](../../../_images/surface.png) ![Privileged](../../../_images/privileged.png)

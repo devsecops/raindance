@@ -1,4 +1,5 @@
 # Surface
+![Surface](../../_images/surface.png)
 
 We are intentionally reducing complexity in our approach at the top level to make it possible to create attack models in as little as 15 minutes. In other words, we think its important to keep things simple and iterative.
 
@@ -14,9 +15,11 @@ Enumerating attack surface requires understanding what potential attacks on othe
 
 ![](../../_images/enumeration.png)
 
+Every environment has different and components will be implemented according to business purpose. There are no bullet-proof environments.  We have discovered that keeping attack surface controlled and blast radius contained is often better than attempting to keep attack surface small.  However, the designer is responsible for understanding both considerations, providing rationale and identifying mitigations to support the choice in path.  What works for one environment may not work for others which is why Security is so hard.  
+
 ## Surface Entry Points
 
-Using this methodology, attack surface is classified at a top-level as: External, Internal or Privileged: 
+Using this methodology, attack surface is classified at a top-level as: External, Internal or Privileged.  These entry points provide a vantage point to show the flow and up-leveling of access or attack path: 
 
 * #### [External](external/README.md)
 
