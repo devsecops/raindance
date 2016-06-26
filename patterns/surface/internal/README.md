@@ -1,2 +1,2 @@
 # Internal
-![Internal](../../../_images/internal.svg)
+![Internal](../../../_images/internal.png)

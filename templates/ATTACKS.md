@@ -10,12 +10,15 @@ This project is in the {Crawl | Walk | Run} phase and has investment through the
 ## Diagram
 {Insert photo/graphical representation of the workload and attack surface}
 
+{You can also enumerate your attack surface using a textual approach}
+
 ## Summary Attack Analysis
+After tracing the attack surface for your project, you will identify a number of attacks.  
 
 |#|Attack|Issue/Gap|Reference|Test Reference|Status|
 |----|----|----|----|----|----|
 |1|{Some Attack Type}|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
-
+|2|{Some Attack Type}|{Issue Summary}|{link to github issue}|{test link}|{workflow status}|
 
 ## Detailed Attack Analysis
 
@@ -24,3 +27,7 @@ This project is in the {Crawl | Walk | Run} phase and has investment through the
 
 **Notes:**
 
+### Attack #2: {Name of Attack}
+{Enter a Reference + Link / Description of the attack} 
+
+**Notes:**

@@ -1,2 +1,2 @@
 # Networks
-![External](../../../../_images/external.svg) ![External](../../../../_images/networks.svg)
+![Surface](../../../../_images/surface.png) ![External](../../../../_images/external.png) ![Networks](../../../../_images/networks.png)

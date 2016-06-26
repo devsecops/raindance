@@ -1,24 +1,28 @@
 
 #External
-![External](../../../_images/external.jpg)
+![Surface](../../../_images/surface.png) ![External](../../../_images/external.png)
 
-This document contains top-level taxonomy for targets, attacks and mitigations that have been classified as ***external***.  We are intentionally reducing complexity in our approach at the top level to make it possible to create attack models in as little as 15 minutes. In other words, we think its important to keep things simple and iterative.
+This document contains top-level taxonomy for targets, attacks and mitigations that have been classified as ***external***.  
 
-Attack Maps are a work in progress and so its this taxonomy.  We will continue to evolve and grow the framework over time and with contributions.  Our intention is to make use of other existing methods and information available (ex. CAPEC, STRIDE, etc.) to help make this system work for quick attack modeling.
+Choosing an external target in this section means that you have chosen a path that begins with an external target.  This path then gets enumerated by following your target to uncover attacks, weaknesses and mitigations that can be added to your ATTACKS.md file.  In this section, the work is mostly done for you. You choose a target and the attack path and mitigations are enumberated.  You can also arrive at an attack path through one of the other means: Assets, Attacks, or Mitigations.
+
+## External Maps
+External maps begin with targets.  Targets are then enriched with attacks and mitigations to help with implementation.  
 
 ### Common External Targets
 
 | # | Target| References |Notes|
 |---|-------|------------|-----|
-|[E1](E1-Physical/README.md)|Physical|ISO-27002:8.1|Locations, Assets, etc.|
-|[E2](E2-Employees/README.md)|Employees|ISO-27002:8.1|Full-time Employees, Contractors, Partners, etc.|
-|[E3](E3-Networks/README.md)|Networks|ISO-27002:8.1|DMZ, Open Wifi, Public, etc.|
-|[E4](E4-Systems/README.md)|Systems|ISO-27002:8.1|Servers, Proxies, etc.|
-|[E5](E5-Products/README.md)|Products|ISO-27002:8.1|Hard Goods, Services, Software, etc.|
-|[E6](E6-Web-Applications/README.md)|Web Applications|ISO-27002:8.1|Marketing, Portal, Blog, etc.|
-|[E7](E7-Partners/README.md)|Partners|ISO-27002:8.1|Business, Technology, Support, etc.|
-|[E8](E8-Customers/README.md)|Customers|ISO-27002:8.1|B2C, B2B, etc.|
-|[E9](E9-Data/README.md)|Data|ISO-27002:8.1|Public, Web, Shared, etc.|
+|[E0](E1-Organization/README.md)|Organization|R0|Brand, Identity, Reputation, etc.|
+|[E1](E1-Physical/README.md)|Physical|R1|Locations, Assets, etc.|
+|[E2](E2-Employees/README.md)|Employees|R2|Full-time Employees, Contractors, Partners, etc.|
+|[E3](E3-Networks/README.md)|Networks|R3|DMZ, Open Wifi, Public, etc.|
+|[E4](E4-Compute/README.md)|Systems|R4|Servers, Proxies, etc.|
+|[E5](E5-Products/README.md)|Products|R5|Hard Goods, Services, Software, etc.|
+|[E6](E6-Applications/README.md)|Applications|R6|Marketing, Portal, Blog, etc.|
+|[E7](E7-Partners/README.md)|Partners|R7|Business, Technology, Support, etc.|
+|[E8](E8-Customers/README.md)|Customers|R8|B2C, B2B, etc.|
+|[E9](E9-Data/README.md)|Data|R9|Public, Web, Shared, etc.|
 
 ### Common External Attacks 
 
@@ -45,5 +49,6 @@ Attack Maps are a work in progress and so its this taxonomy.  We will continue t
 
 ## Resources
 
+[ISO-27002:8.1]()
 
 

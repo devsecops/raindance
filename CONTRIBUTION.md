@@ -14,3 +14,5 @@ We are beginning with External attack surface first and then moving into Interna
 
 ### C. Working with other projects
 We are really interested in partnering with other projects that have established common bodies of knowledge.  Our intention is to create a collaborative environment and not a replacement model for other efforts. We have a few open source projects (CAPEC, etc.) identified already and intend to work with them early in this project.
+
+
