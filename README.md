@@ -16,29 +16,58 @@ We have narrowed our approach for prioritization of common attacks down to three
 
 We will begin building out this project using human readable diagrams and dialogue with the intention of automation starting with this top-level depiction.  The intention is to build out a common set of basic building blocks first and then make it possible for more complex scenarios over time.
 
-## Attack Surface
+## Surface
 Attack surface is the entry point for Raindance.  This section describes the top-level for the project and gives you a starting point for your work.   
 
-* #### [External](patterns/external/README.md)
+* #### [External](patterns/surface/external/README.md)
 
 	External assets are intentionally or unintentionally exposed for public use or consumption.  Assets that are intentionally exposed publicly are commonly prepared for public access but may not have a full understanding of how they might be abused.  Assets that are unintentionally exposed are commonly not prepared for public access and have attack surface which is more easily abused.
 
-* #### [Internal](patterns/internal/README.md)
+* #### [Internal](patterns/surface/internal/README.md)
 
 	Internal assets are protected assets that are commonly described under an "ownership" model. Internal assets are not generally exposed to the public and usually include security controls to limit exposure.  Physical and logical boundaries, authentication, and authorization controls are commonly deployed to ensure that only trusted individuals can consume or use these assets.
 
-* #### [Privileged](patterns/privileged/README.md)
+* #### [Privileged](patterns/surface/privileged/README.md)
 	
 	Privileged assets are intentionally well-protected and are certainly not intended for public consumption.  These assets are "handled" by trusted individuals with specified privileges honored by security controls once identification is presented for authorized access to be confirmed.
+	
+## Assets
+Assets are the component parts that make up organizations, products, services and other compilations that create value.  Assets are considered property that is owned by an organization or person.
 
-## Attack Steps
-Every asset has its own attack surface
+## Attacks
+Attacks are steps in an abuse case or exploit or kill-chain that lead to compromise.
 
 * #### [Reconnaissance]()
 
-	
+	Reconnaissance is the act of collecting information to uncover weaknesses or relationships between assets which could be exploited.  This is a preliminary step for most attacks and helps an adversary to uncover a successful attack strategy.
 
 * #### [Testing]()
+
+	Information from reconnaissance often needs to be tested to confirm whether a weakness exists.  Adversaries need to probe to gather details for their attack.  Asset ownership and organizational boundaries can help to surface an attackers tests or help to hide them.
+
+## Mitigations
+Every organization or person has the ability to reduce business risks developed during the value creation process.  Mitigating controls are commonly put in place to make an attack difficult.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,5 @@
 # Web Applications
+![External](../../../../_images/external.svg) ![External](../../../../_images/web-applications.svg)
 
 There are a variety of ways to support web applications and attack surface varies by configuration as well the mitigations used to support the configuration.
 
