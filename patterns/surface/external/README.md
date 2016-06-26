@@ -4,7 +4,7 @@
 
 This document contains top-level taxonomy for targets, attacks and mitigations that have been classified as ***external***.  
 
-Choosing an external target in this section means that you have chosen a path that begins with an external target.  This path then gets enumerated by following your target to uncover attacks, weaknesses and mitigations that can be added to your ATTACKS.md file.  In this section, the work is mostly done for you. You choose a target and the attack path and mitigations are enumberated.  You can also arrive at an attack path through one of the other means: Assets, Attacks, or Mitigations.
+Choosing an external target in this section means that you have chosen a path that begins with an external target.  This path then gets enumerated by following your target to uncover attacks, weaknesses and mitigations that can be added to your ATTACKS.md file.  You can also arrive at an attack path through one of the other means: Assets, Attacks, or Mitigations.  We'll continue to enumerate and evolve External targets and attack maps in this section.
 
 ## External Maps
 External maps begin with targets.  Targets are then enriched with attacks and mitigations to help with implementation.  
