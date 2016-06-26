@@ -1,6 +1,6 @@
 
 #External
-![External](./_images/external.svg)
+![External](../../../_images/external.svg)
 
 This document contains top-level taxonomy for targets, attacks and mitigations that have been classified as ***external***.  We are intentionally reducing complexity in our approach at the top level to make it possible to create attack models in as little as 15 minutes. In other words, we think its important to keep things simple and iterative.
 
