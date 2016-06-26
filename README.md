@@ -12,7 +12,7 @@ The Attack Map approach builds upon the concept that software projects should co
 
 We have narrowed our approach for prioritization of common attacks down to three attacker vantage points: external, internal, or privileged.  We have chosen these levels as top level entry points within our methodology because it simplifies the initial classification of attack surface.  Here is a reference diagram to help with understanding how Attack Maps work:
 
-![Top-Level Attack Map](_images/attack-maps.png)
+![Top-Level Attack Map](images/attack-maps.png)
 
 We will begin building out this project using human readable diagrams and dialogue with the intention of automation starting with this top-level depiction.  The intention is to build out a common set of basic building blocks first and then make it possible for more complex scenarios over time.
 
