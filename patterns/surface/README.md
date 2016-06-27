@@ -21,14 +21,14 @@ Every environment has different and components will be implemented according to 
 
 Using this methodology, attack surface is classified at a top-level as: External, Internal or Privileged.  These entry points provide a vantage point to show the flow and up-leveling of access or attack path: 
 
-* #### [External](external/README.md)
+* #### [1. External](external/README.md)
 
 	External assets are intentionally or unintentionally exposed for public use or consumption.  Assets that are intentionally exposed publicly are commonly prepared for public access but may not have a full understanding of how they might be abused.  Assets that are unintentionally exposed are commonly not prepared for public access and have attack surface which is more easily abused.
 
-* #### [Internal](internal/README.md)
+* #### [2. Internal](internal/README.md)
 
 	Internal assets are protected assets that are commonly described under an "ownership" model. Internal assets are not generally exposed to the public and usually include security controls to limit exposure.  Physical and logical boundaries, authentication, and authorization controls are commonly deployed to ensure that only trusted individuals can consume or use these assets.
 
-* #### [Privileged](privileged/README.md)
+* #### [3. Privileged](privileged/README.md)
 	
 	Privileged assets are intentionally well-protected and are certainly not intended for public consumption.  These assets are "handled" by trusted individuals with specified privileges honored by security controls once identification is presented for authorized access to be confirmed.

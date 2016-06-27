@@ -1,8 +1,8 @@
 # The Raindance Project
 
-Over the years, we all collect skills defending our software against attackers and learn the details necessary to make our software more resillient.  The goal of this project is to figure out how to simplify attack modeling for developers by building out component parts and an inheritence model that can be referenced for common attack scenarios and security testing.  Further, we are taking on the challenge of making it possible for a developer to spend 15 minutes developing an attack map that they can keep up to date as their software changes to fit within a continuous delivery process. This will be no small task and we will use what we know already to build out this capability day by day so that we can invite a community of practitioners to help us scale.  We are calling this approach: ***Attack Maps***. 
+Over the years, we all collect skills defending our software against attackers and learn the details necessary to make our software more resillient.  The goal of this project is to figure out how to simplify attack modeling for developers by building out component parts and an inheritence model that can be referenced for common attack scenarios and security testing.  Further, we are taking on the challenge of making it possible for a developer to spend 15 minutes developing an attack map that they can keep up to date as their software changes to fit within a continuous delivery process. This will be no small task and we will use what we know already to build out this capability day by day so that we can invite a community of practitioners to help us scale.  
 
-This methodology is not a replacement for other security modeling techniques but is necessary for the DevSecOps approach to function well in most organizations.  The intention behind this work is to help value creators to quickly identify blast radius, asset composition, and provide controls for feedback (logging), access control (authentication), and data protection (encryption).
+We are calling this approach: ***Attack Maps***.  This methodology is not a replacement for other security modeling techniques but is necessary for the DevSecOps approach to function well in most organizations.  The intention behind this work is to help value creators to quickly identify blast radius, asset composition, and provide controls for feedback (logging/instrumentation), access control (authentication), and data protection (encryption).
 
 ## Hypothesis
 
@@ -21,16 +21,16 @@ We will begin building out this project using human readable diagrams and dialog
 ## Catalog
 We've organized our work into a living catalog.  Security work generally starts out broad and quickly narrows to become deep and specialized.
 
-* ### [Surface](patterns/surface/README.md)
+* ### [1. Surface](patterns/surface/README.md)
 Attack surface is the entry point for Raindance.  This section describes the top-level for the project and gives you a starting point for your work.   
 	
-* ### [Assets](patterns/asset/README.md)
+* ### [2. Assets](patterns/asset/README.md)
 Assets are the component parts that make up organizations, products, services and other compilations that create value.  Assets are considered property that is owned by an organization or person.
 
-* ### [Attacks](patterns/attack/README.md)
+* ### [3. Attacks](patterns/attack/README.md)
 Attacks are steps in an abuse case or exploit or kill-chain that lead to compromise.
 
-* ### [Mitigations](patterns/mitigation/README.md)
+* ### [4. Mitigations](patterns/mitigation/README.md)
 Every organization or person has the ability to reduce business risks developed during the value creation process.  Mitigating controls are commonly put in place to make an attack difficult.
 
 ##Getting Started
