@@ -1,9 +1,7 @@
 # Surface
 ![Surface](../../_images/surface.png)
 
-We are intentionally reducing complexity in our approach at the top level to make it possible to create attack models in as little as 15 minutes. In other words, we think its important to keep things simple and iterative.
-
-Attack Maps are a work in progress and so its this taxonomy.  We will continue to evolve and grow the framework over time and with contributions.  Our intention is to make use of other existing methods and information available (ex. CAPEC, STRIDE, etc.) to help make this system work for quick attack modeling.
+Attack maps often begin with understand the layers of attack surface available to an adversary.  Let's begin with the types of adversaries.  This is not consistent with other methodologies that extend time to threat actors.  We think the threat actor characterizations are important but likely more for security professionals than for value creators.  We'll add some links about threat actors to resources in our [RESOURCES.md](../../RESOURCES.md) over time.
 
 ## Lucky or Targeted
 The entry point for most attacks is either a lucky find or a targeted attempt. Knowing which of these you are worried about and how is essential in being able to prepare a set of mitigations and appropriate defenses.  A lucky adversary often operates very different from a targeted adversary.  Namely, a lucky adversary tends to find something that was missed or unintended with the goal of understanding where it could lead.  A targeted attacker may have an intended goal and requires a specific set of attacks to be successful to gain access to or information about an intended target.
@@ -15,7 +13,9 @@ Enumerating attack surface requires understanding what potential attacks on othe
 
 ![](../../_images/enumeration.png)
 
-Every environment has different and components will be implemented according to business purpose. There are no bullet-proof environments.  We have discovered that keeping attack surface controlled and blast radius contained is often better than attempting to keep attack surface small.  However, the designer is responsible for understanding both considerations, providing rationale and identifying mitigations to support the choice in path.  What works for one environment may not work for others which is why Security is so hard.  
+In this diagram, the compromise of data, the target, could happen because of a mistake made with the data directly.  It could also happen because of a compromise in another component that shares a trust relationship with data.  Components are generically represented to help the modeler understand when they are asserting trust and how that trust could be used against an asset. This same model is available for all components with complex models able to chain these models together to identify valid attack maps.
+
+Keep in mind that every environment has different and components will be implemented according to business purpose. There are no bullet-proof environments.  We have discovered that keeping attack surface controlled and blast radius contained is often better than attempting to keep attack surface small.  However, the designer is responsible for understanding both considerations, providing rationale and identifying mitigations to support the choice in path.  What works for one environment may not work for others which is why Security is so hard.  
 
 ## Surface Entry Points
 
