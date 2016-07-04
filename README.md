@@ -1,14 +1,18 @@
 # The Raindance Project
 
+Welcome to the Raindance Project - the attack map process for identifying target surface and adversary attack strategies that lead to exploit and compromise.  This project is extensive with a goal of creating re-usable and inheritable attack maps.  If you are just getting started, you will want to read the [GET-STARTED.md](#getting-started) to build your own ATTACKS.md file and attack maps for your project.  You can also find our roadmap here: [ROADMAP](https://github.com/devsecops/raindance/milestones)
+
+## Overview
+
 Over the years, we all collect skills defending our software against attackers and learn the details necessary to make our software more resillient.  The goal of this project is to figure out how to simplify attack modeling for developers by building out component parts and an inheritence model that can be referenced for common attack scenarios and security testing.  Further, we are taking on the challenge of making it possible for a developer to spend 15 minutes developing an attack map that they can keep up to date as their software changes to fit within a continuous delivery process. This will be no small task and we will use what we know already to build out this capability day by day so that we can invite a community of practitioners to help us scale.  
 
 We are calling this approach: ***Attack Maps***.  This methodology is not a replacement for other security modeling techniques but is necessary for the DevSecOps approach to function well in most organizations.  The intention behind this work is to help value creators to quickly identify blast radius, asset composition, and provide controls for feedback (logging/instrumentation), access control (authentication), and data protection (encryption).
 
-## Hypothesis
+### Hypothesis
 
 Using github and developing a common attack component model, we think we can solve for "just enough" attack mapping to make it possible for developers to get a better sense of how their software will survive in the wild.  The intent of this project is to simplify and focus on how an attacker approaches breaking into software and how it will eventually mesh with Threat Modeling.  
 
-## Approach
+### Approach
 
 The Attack Map approach builds upon the concept that software projects should contain security information and a common understanding of attack surface.  In a software project that employs this methodology, you would find a SECURITY.md and ATTACKS.md file within the root of the project.  Focusing on the ATTACKS.md file, we believe it is necessary to include a thumbnail sketch along with potential attack information considered during the design, implementation and operations of the software project.  Further, this Standard is meant to provide a library for commonly implemented patterns and the potential pitfalls that should be considered in order to reduce the effort and time required to identify an attack model.
 
